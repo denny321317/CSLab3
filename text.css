@@ -1,0 +1,36 @@
+body				{font-family: arial, sans-serif;
+					padding: 50px;
+					color: white;
+					background-color: lightblue;}
+nav					{font-weight: bold;
+					color: yellow;
+					border: 2px solid orange;
+					text-align: center;
+					width: 10em;
+					background-color: orange;}
+nav ul				{display: none;
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					}
+nav:hover ul		{display: block;}
+nav	ul li      		{border-top: 3px solid orange;
+					background-color: white;
+					width: 10em;
+					color: black;
+					margin: 0;
+					padding: 0;
+					border-right: 0}
+nav ul li:hover		{background-color: lightgreen;}
+a 					{text-decoration: none;}
+.navbar{
+	top: 5px;
+	left: 5px;
+	width: 50%;
+	position: left;
+}
+@media screen and (max-width: 1080px){
+	body{
+		background-color: lightpink;
+	}
+}					
